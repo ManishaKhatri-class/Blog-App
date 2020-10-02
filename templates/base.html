@@ -5,12 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     {% include 'base/css.html' %}
-
- 
-    
     <link rel='stylesheet' href="{% static 'Custom_CSS/footer.css'%}">
     {% block custom_css %}
      {% endblock custom_css %}
@@ -19,15 +15,11 @@
   <body>
       <!-- navebar block -->
   {% include 'base/navebar.html' %}
-     
   {% block blog_home_block %}        
   {% endblock blog_home_block %}
-   
   {% include 'base/footer.html' %}
-
   {% block js %}
   {% endblock js %}
-
   {% include 'base/js.html' %}
 
 </body>
